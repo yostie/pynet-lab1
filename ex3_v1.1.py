@@ -63,6 +63,7 @@ def main():
 			print "StartupLastChanged Time = " + str(start_last_changed)
 			print "Save Status: The startup configuration has not been changed since the last time the system was booted."
 			print "*********************************************"
+			
 		elif save_status is 'run_saved':
 			print "*********************************************"
 			print "Device = " + sysname
@@ -70,6 +71,7 @@ def main():
 			print "StartupLastChanged Time = " + str(start_last_changed)
 			print "Save Status: The running configuration has been saved to the startup configuration."
 			print "*********************************************"
+			
 		else:
 			print "*********************************************"
 			print "Device = " + sysname
